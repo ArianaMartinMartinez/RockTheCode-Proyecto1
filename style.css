@@ -44,6 +44,10 @@ header {
     width: 150px;
 }
 
+.menu-icon {
+    width: 6rem;
+}
+
 
 /** MAIN **/
 
@@ -100,7 +104,8 @@ footer {
 footer > nav {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    flex: 1 1;  
 }
 
 footer > p {
@@ -119,6 +124,10 @@ footer > p {
 @media (max-width: 1100px) {
     .header_nav, .search {
         display: none;
+    }
+
+    footer {
+        font-size: 13px;
     }
 }
 
